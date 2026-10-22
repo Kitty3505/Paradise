@@ -119,3 +119,7 @@
 /obj/item/clothing/neck/neckerchief/red
 	name = "red neckerchief"
 	icon_state = "neckerchief_red"
+
+/obj/item/clothing/neck/choker/black
+	name = "black choker"
+	icon_state = "blackchoker"
