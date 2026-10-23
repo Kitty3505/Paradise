@@ -120,6 +120,14 @@
 	name = "red neckerchief"
 	icon_state = "neckerchief_red"
 
-/obj/item/clothing/neck/choker/black
+/obj/item/clothing/neck/choker
 	name = "black choker"
 	icon_state = "blackchoker"
+	sprite_sheets = list(
+		"Drask" = 'icons/mob/clothing/species/drask/neck.dmi',
+		"Grey" = 'icons/mob/clothing/species/grey/neck.dmi',
+		"Kidan" = 'icons/mob/clothing/species/kidan/neck.dmi',
+		"Skkulakin" = 'icons/mob/clothing/species/skkulakin/neck.dmi',
+		"Vox" = 'icons/mob/clothing/species/vox/neck.dmi'
+	var/under_suit = TRUE
+	)
